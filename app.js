@@ -55,7 +55,7 @@ function sortearAmigo() {
 
     //agregar el resultado al DOM
     let item = document.createElement("li");
-    item.textContent = `El amigo sorteado es: ${amigoSorteado}`;
+    item.textContent = `El amigo secreto es: ${amigoSorteado}`;
     resultado.appendChild(item);
 }
     // funcion para reiniciar el juego y volver al comienzo
